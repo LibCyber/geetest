@@ -1,8 +1,8 @@
 <?php
 
-namespace Scyllaly\Geetest\Tests;
+namespace LibCyber\Geetest\Tests;
 
-use Scyllaly\Geetest\Geetest;
+use LibCyber\Geetest\Geetest;
 use PHPUnit\Framework\TestCase;
 
 class GeetestTest extends TestCase

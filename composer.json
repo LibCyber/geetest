@@ -1,19 +1,18 @@
 {
-  "name": "scyllaly/geetest",
+  "name": "libcyber/geetest",
   "description": "Geetest Package for Laravel",
   "keywords": [
     "Geetest",
-    "Laravel",
-    "Scyllaly"
+    "Laravel"
   ],
   "license": "MIT",
   "support": {
-    "email": "scyllaly@github.com"
+    "email": "libcyber@github.com"
   },
   "authors": [
     {
-      "name": "Scyllaly",
-      "email": "scyllaly@github.com"
+      "name": "LibCyber",
+      "email": "libcyberstudio@gmail.com"
     }
   ],
   "require": {
@@ -27,7 +26,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Scyllaly\\Geetest\\": "src/"
+      "LibCyber\\Geetest\\": "src/"
     }
   },
   "autoload-dev": {

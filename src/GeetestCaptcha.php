@@ -1,6 +1,6 @@
 <?php
 
-namespace Scyllaly\Geetest;
+namespace LibCyber\Geetest;
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Request;

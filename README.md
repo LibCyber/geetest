@@ -3,7 +3,7 @@
 ## Install
 
 ``` bash
-composer require scyllaly/geetest
+composer require libcyber/geetest
 ```
 
 ## config
@@ -11,19 +11,19 @@ composer require scyllaly/geetest
 - insert ServiceProvider into `config/app.php`
 	
 ```php
-Scyllaly\Geetest\GeetestServiceProvider::class,
+LibCyber\Geetest\GeetestServiceProvider::class,
 ```
 
 - insert Alias into `config/app.php` 
 
  ```php
- 'Geetest' => Scyllaly\Geetest\Geetest::class,
+ 'Geetest' => LibCyber\Geetest\Geetest::class,
  ```
 
 - publish config & view file
 
 ```shell
-php artisan vendor:publish --provider='Scyllaly\Geetest\GeetestServiceProvider'
+php artisan vendor:publish --provider='LibCyber\Geetest\GeetestServiceProvider'
 ```
 
 - insert config fileds into `.env` , or get the config by `CaptchaVerify` Component
