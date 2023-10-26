@@ -1,6 +1,6 @@
 <?php
 
-namespace Scyllaly\Geetest;
+namespace LibCyber\Geetest;
 
 use Illuminate\Routing\Controller;
 

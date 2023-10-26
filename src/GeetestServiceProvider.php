@@ -1,6 +1,6 @@
 <?php
 
-namespace Scyllaly\Geetest;
+namespace LibCyber\Geetest;
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Blade;
@@ -24,7 +24,7 @@ class GeetestServiceProvider extends ServiceProvider
             __DIR__ . '/config.php' => config_path('geetest.php'),
         ], 'geetest');
 
-        Route::get('geetest', 'Scyllaly\Geetest\GeetestController@getGeetest');
+        Route::get('geetest', 'LibCyber\Geetest\GeetestController@getGeetest');
 
         Validator::extend('geetest', function () {
             list($geetest_challenge, $geetest_validate, $geetest_seccode) = array_values(request()->only('geetest_challenge', 'geetest_validate', 'geetest_seccode'));
